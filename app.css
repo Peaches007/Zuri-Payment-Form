@@ -1,0 +1,146 @@
+/**************** General Styles******************/
+body {
+    font-family: sans-serif;
+    width: 100%;
+    background-color: #dcdee4;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    }
+.wrapper {
+    background-color: #FFF;
+    width: 50%;
+    height: 80%;
+    margin: 5% auto;
+    border-radius: 20px;
+    box-shadow: -2px 3px 10px 4px rgb(135, 135, 138);
+}
+form {
+    padding: 5px 10px 20px 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/**************** Headers ******************/
+.wrapper h2 {
+    background-color: #3554D1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 60px 30px 20px 30px;
+    color: #FFF;
+}
+h4 {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #041e74
+}
+form > h4 {
+    margin-left: 30px;
+}
+
+
+/*************** User Input Styles ******************/ 
+
+.input-group {
+    padding: 10px 10px;
+}
+.input-group:first-of-type {
+    padding-bottom: 0;
+}
+.input-group:nth-of-type(2) {
+    padding-top: 0;
+}
+
+.input-box {
+    border: 1px solid rgb(176, 207, 221);
+    padding: 2px 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.input-box h4 {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.input-box input[type=text], .input-box input[type=email], .input-box input[type=tel] {
+    border: none;
+    outline: none; 
+    width: 80%;
+    padding: 10px;
+}
+.input-box input[type=radio], .input-box select {
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.input-box input[type=radio]:focus {
+    outline: 1px solid rgb(201, 200, 200);
+}
+span:first-of-type {
+    margin-right: 20px;
+}
+.fa-cc-visa:before {
+    margin-right: 5px;
+}
+.fa-cc-paypal:before {
+    margin-right: 5px;
+}
+.input-box select:focus {
+    border: 1px solid gainsboro;
+}
+
+.dob.dob.dob {
+    width: 25%;
+    border-right: 1px solid gainsboro;
+}
+.dob.dob.dob:last-child {
+    border-right: none;
+}
+
+.input-group .input-box:nth-of-type(10) {
+    border: none;
+}
+/* .input-box:nth-of-type(4) {
+    margin-bottom: 15px;
+} */
+
+/***************** Button Styles ******************/
+button {
+    box-sizing: border-box;
+    color: #00DB96;
+    background-color: #FFF;
+    border: 3px solid #00DB96;
+    width: 100%;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 15px;
+    margin-top: 20px;
+    outline: none;
+}
+button:hover {
+    background-color: /*#00BD83*/ #06DA98;
+    color: #FFF;
+    border: none;
+}
+button:active {
+    outline: none;
+}
+/* button:focus {
+    border: 1px solid gainsboro;
+} */
+
+/**************************** Responsive Styling **************************/
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .form {
+        width: 100%;
+        /* padding: 5px 5px 10px 5px; */
+    }
+    .input-group {
+        padding: 0;
+    }
+}
